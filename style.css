@@ -1,0 +1,323 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/** Hero Section **/
+
+.hero-section {
+  height: 93vh;
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 08%,
+      rgba(0, 0, 0, 0.5) 60%,
+      rgba(0, 0, 0, 01) 96%
+    ),
+    url("IN-en-20240520-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-position: center;
+  border-bottom: 10px solid #232323;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 85px;
+  padding-top: 5px;
+}
+
+.nav1 {
+  width: 20%;
+  margin-left: 10%;
+}
+
+.logo-nav {
+  width: 12rem;
+  height: 4.8rem;
+}
+
+.nav2 {
+  width: 60%;
+  display: flex;
+  justify-content: end;
+}
+
+.lang-nav-box {
+  border: #605f5f 0.85px solid;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 21px;
+}
+
+.lang-nav-box:hover {
+  border: 2px white solid;
+}
+
+.lang-nav-box i {
+  font-size: 1.4rem;
+  color: white;
+  padding-right: 4px;
+}
+
+.lang-nav {
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-weight: 200;
+}
+
+.lang-nav option {
+  color: black;
+}
+
+.nav3 {
+  width: 20%;
+  display: flex;
+  justify-content: start;
+}
+
+.button-nav {
+  background-color: #e50914;
+  color: white;
+  font-size: 0.9rem;
+  padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5px;
+  align-items: center;
+}
+
+.button-nav:hover {
+  background-color: #c11119;
+}
+
+.hero-text {
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-hero {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.subheading-hero {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.form-hero {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.699);
+  font-size: 1rem;
+  padding-left: 20px;
+}
+
+.form-hero input {
+  border-radius: 5px;
+  color: white;
+  border: #605f5f 0.85px solid;
+  font-size: 1rem;
+  height: 56px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-hero button {
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5rem;
+  height: 56px;
+  width: 190px;
+
+  text-align: center;
+  margin-left: 8px;
+  background-color: #e50914;
+}
+
+.form-section-hero {
+  margin-top: 24px;
+}
+
+.formheading-hero {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+/** Section 2 **/
+
+.sectiontwo {
+  height: 80vh;
+
+  width: 100%;
+  background-color: black;
+  border-bottom: 10px solid #232323;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.leftcol {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 168px;
+}
+
+.rightcol {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 168px;
+  z-index: 10;
+}
+
+.imgsec1 {
+  position: absolute;
+}
+
+.sectionthree {
+  height: 80vh;
+
+  width: 100%;
+  background-color: black;
+  border-bottom: 10px solid #232323;
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: center;
+  justify-content: center;
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 270px;
+  border: solid 2px #605f5f;
+  border-radius: 0.75rem;
+  background-color: black;
+  position: relative;
+  top: 25%;
+}
+
+.textdownload {
+  width: 60%;
+  margin-left: 1rem;
+}
+
+.rightcol1 {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 168px;
+  z-index: 10;
+}
+
+.leftcol1 {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 168px;
+}
+
+
+.faqsection{
+  height: 130vh;
+  background-color: black;
+  width: 100%;
+  border-bottom: 10px solid #232323;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq{
+  padding-left: 168px;
+  padding-right: 168px;
+}
+
+details{
+  background-color: red;
+  height: 84px;
+  width: 1104px;
+}
+
+details:after {
+  height: 184px;
+}
+
+.footer{
+  height: 50vh;
+  background-color: black;
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+  border-bottom: 10px solid #232323;
+  padding-left: 168px;
+  padding-right: 168px;
+}
+
+.footersec1 li{
+  text-decoration: underline;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.7)  ;
+  font-size: 14px;
+  font-weight: 400;
+ padding-bottom: 16px;
+}
+
+.footersec1{
+  display: block;
+
+ 
+}
+
+.main-footer{
+  columns: 4;
+  
+}
+
